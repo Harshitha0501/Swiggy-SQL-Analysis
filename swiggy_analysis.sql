@@ -9,7 +9,7 @@ USE swiggy_analysis;
 SELECT COUNT(*) AS total_records
 FROM swiggy;
 
--- 2. Check NULL values
+-- 2. Check NULL values 
 SELECT
     COUNT(*) AS total_rows,
     SUM(name IS NULL) AS null_names,
