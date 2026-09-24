@@ -51,7 +51,7 @@ SELECT
     ROUND(AVG(cost), 2) AS average_cost
 FROM swiggy_cleaned;
 
--- 5. Top 10 cities by restaurant count
+-- 5. Top 10 locations by restaurant count
 SELECT
     city,
     COUNT(*) AS restaurant_count
@@ -69,7 +69,7 @@ GROUP BY cuisine
 ORDER BY restaurant_count DESC
 LIMIT 10;
 
--- 7. Cities with highest average rating
+-- 7. Locations with highest average rating
 SELECT
     city,
     COUNT(*) AS restaurant_count,
@@ -93,7 +93,7 @@ WHERE cost IS NOT NULL
 ORDER BY cost DESC
 LIMIT 10;
 
--- 9. Cities with highest average cost
+-- 9. Locations with highest average cost
 SELECT
     city,
     COUNT(*) AS restaurant_count,
@@ -130,7 +130,7 @@ GROUP BY name
 ORDER BY branch_count DESC
 LIMIT 10;
 
--- 12. City rating and cost analysis
+-- 12. Location rating and cost analysis
 SELECT
     city,
     COUNT(*) AS restaurant_count,
@@ -190,7 +190,7 @@ WHERE cost IS NOT NULL
 GROUP BY cost_range
 ORDER BY MIN(cost);
 
--- 16. Final city summary
+-- 16. Final location summary
 SELECT
     city,
     COUNT(*) AS restaurant_count,
