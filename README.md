@@ -60,6 +60,20 @@ The project includes analysis of:
 
 > The cost-versus-rating analysis identifies differences between price groups but does not establish that higher cost directly causes higher ratings.
 
+## Results & Visual Evidence
+
+### Restaurant Distribution by Location
+
+![Restaurant Distribution by Location](01-location-analysis.png)
+
+### Rating Distribution
+
+![Rating Distribution](02-rating-distribution.png)
+
+### Cost vs Rating Analysis
+
+![Cost vs Rating Analysis](03-cost-vs-rating.png)
+
 ## Project Structure
 
 ```text
@@ -67,40 +81,51 @@ Swiggy-SQL-Analysis/
 │
 ├── README.md
 ├── swiggy_analysis.sql
-└── findings.md
+├── findings.md
+├── 01-location-analysis.png
+├── 02-rating-distribution.png
+└── 03-cost-vs-rating.png
+
+```
 
 ## Tools & Technologies
 
-MySQL
-MySQL Workbench
-SQL
-Git
-GitHub
-Skills Demonstrated
-SQL Data Cleaning
-Data Transformation
-Aggregate Functions
-GROUP BY and HAVING
-Filtering with WHERE
-Sorting and Ranking
-CASE Statements
-Regular Expressions
-Business Data Analysis
-Data Quality Checking
+- MySQL
+- MySQL Workbench
+- SQL
+- Git
+- GitHub
+
+## Skills Demonstrated
+
+- SQL Data Cleaning
+- Data Transformation
+- Aggregate Functions
+- GROUP BY and HAVING
+- Filtering with WHERE
+- Sorting and Ranking
+- CASE Statements
+- Regular Expressions
+- Business Data Analysis
+- Data Quality Checking
 
 ## How to Run
 
-Install MySQL and MySQL Workbench.
-Create a database named swiggy_analysis.
-Import the original Swiggy CSV dataset into a table named swiggy.
-Open swiggy_analysis.sql in MySQL Workbench.
-Run the data-cleaning query to create swiggy_cleaned.
-Run the analysis queries to reproduce the findings.
+1. Install MySQL and MySQL Workbench.
+2. Create a database named `swiggy_analysis`.
+3. Import the original Swiggy CSV dataset into a table named `swiggy`.
+4. Open `swiggy_analysis.sql` in MySQL Workbench.
+5. Run the data-cleaning query to create `swiggy_cleaned`.
+6. Run the analysis queries to reproduce the findings.
 
 ## Project Files
-swiggy_analysis.sql — SQL data cleaning and analysis queries
-findings.md — Detailed analysis results and observations
-README.md — Project documentation
+
+- `swiggy_analysis.sql` — SQL data cleaning and analysis queries
+- `findings.md` — Detailed analysis results and observations
+- `README.md` — Project documentation
+- `01-location-analysis.png` — Location analysis result
+- `02-rating-distribution.png` — Rating distribution result
+- `03-cost-vs-rating.png` — Cost vs rating result
 
 ## Author
 
