@@ -12,6 +12,14 @@
 ![Data Analysis](https://img.shields.io/badge/Data%20Analysis-FF6F00?style=for-the-badge)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 
+## ⭐ Project Highlights
+
+- Analyzed 81,777 Swiggy restaurant records using MySQL.
+- Cleaned and transformed raw restaurant data.
+- Explored restaurant locations, cuisine trends, ratings, and pricing.
+- Identified data quality issues and potential cost anomalies.
+- Documented findings with SQL queries and visual evidence.
+
 ## Project Overview
 
 This project analyzes **81,777 Swiggy restaurant records** using MySQL to identify patterns in restaurant locations, cuisine categories, ratings, pricing, and the relationship between cost and rating.
