@@ -138,14 +138,15 @@ Swiggy-SQL-Analysis/
 5. Run the data-cleaning query to create `swiggy_cleaned`.
 6. Run the analysis queries to reproduce the findings.
 
-## Project Files
+## 📂 Explore Project Files
 
-- `swiggy_analysis.sql` — SQL data cleaning and analysis queries
-- `findings.md` — Detailed analysis results and observations
-- `README.md` — Project documentation
-- `01-location-analysis.png` — Location analysis result
-- `02-rating-distribution.png` — Rating distribution result
-- `03-cost-vs-rating.png` — Cost vs rating result
+| File | Description |
+|---|---|
+| [SQL Analysis](swiggy_analysis.sql) | Data cleaning and analysis queries |
+| [Detailed Findings](findings.md) | Analysis results and observations |
+| [Location Analysis](01-location-analysis.png) | Restaurant distribution by location |
+| [Rating Distribution](02-rating-distribution.png) | Restaurant rating analysis |
+| [Cost vs Rating](03-cost-vs-rating.png) | Pricing and rating comparison |
 
 ## Author
 
