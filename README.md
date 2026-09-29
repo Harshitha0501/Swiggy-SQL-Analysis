@@ -7,6 +7,11 @@
 
 # Swiggy Restaurant Data Analysis — MySQL
 
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-025E8C?style=for-the-badge&logo=postgresql&logoColor=white)
+![Data Analysis](https://img.shields.io/badge/Data%20Analysis-FF6F00?style=for-the-badge)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+
 ## Project Overview
 
 This project analyzes **81,777 Swiggy restaurant records** using MySQL to identify patterns in restaurant locations, cuisine categories, ratings, pricing, and the relationship between cost and rating.
