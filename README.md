@@ -1,3 +1,10 @@
+<div align="center">
+
+![Swiggy SQL Analysis Banner](images/swiggy-sql-banner.png)
+
+</div>
+
+
 # Swiggy Restaurant Data Analysis — MySQL
 
 ## Project Overview
